@@ -1,0 +1,14 @@
+[
+    {
+        "tipo_consulta": "Pediatria",
+        "nombre_especialista": "Cecilia Aguayo"
+    },
+    {
+        "tipo_consulta": "CGI",
+        "nombre_especialista": "Emilio Aldunate"
+    },
+    {
+        "tipo_consulta": "Urgencia",
+        "nombre_especialista": "Rafael Arratia"
+    }
+]

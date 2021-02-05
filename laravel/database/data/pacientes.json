@@ -1,0 +1,130 @@
+[
+    {
+        "nombre": "Alexander Serrano",
+        "edad": 38,
+        "numero_historia_clinica": 100,
+        "relacion_peso_estatura": null,
+        "anios_de_fumador": 0,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "German Torres",
+        "edad": 19,
+        "numero_historia_clinica": 101,
+        "relacion_peso_estatura": null,
+        "anios_de_fumador": 5,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "Mildred Boet",
+        "edad": 49,
+        "numero_historia_clinica": 102,
+        "relacion_peso_estatura": null,
+        "anios_de_fumador": null,
+        "tiene_dieta": false
+    },
+    {
+        "nombre": "Alfonso Torres",
+        "edad": 70,
+        "numero_historia_clinica": 103,
+        "relacion_peso_estatura": null,
+        "anios_de_fumador": null,
+        "tiene_dieta": true
+    },
+    {
+        "nombre": "Leonisa Torres",
+        "edad": 90,
+        "numero_historia_clinica": 104,
+        "relacion_peso_estatura": null,
+        "anios_de_fumador": null,
+        "tiene_dieta": false
+    },
+    {
+        "nombre": "Cipriano Torres",
+        "edad": 102,
+        "numero_historia_clinica": 105,
+        "relacion_peso_estatura": null,
+        "anios_de_fumador": null,
+        "tiene_dieta": true
+    },
+    {
+        "nombre": "Oswaldo Torres",
+        "edad": 14,
+        "numero_historia_clinica": 106,
+        "relacion_peso_estatura": 2,
+        "anios_de_fumador": null,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "Sophya Torres",
+        "edad": 6,
+        "numero_historia_clinica": 107,
+        "relacion_peso_estatura": 3,
+        "anios_de_fumador": null,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "Alfredo Torres",
+        "edad": 2,
+        "numero_historia_clinica": 108,
+        "relacion_peso_estatura": 1,
+        "anios_de_fumador": null,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "Fererico Torres",
+        "edad": 12,
+        "numero_historia_clinica": 109,
+        "relacion_peso_estatura": 4,
+        "anios_de_fumador": null,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "Dora Torres",
+        "edad": 8,
+        "numero_historia_clinica": 110,
+        "relacion_peso_estatura": 3,
+        "anios_de_fumador": null,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "Mariflor Torres",
+        "edad": 34,
+        "numero_historia_clinica": 111,
+        "relacion_peso_estatura": null,
+        "anios_de_fumador": 10,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "Tatiana Ramirez",
+        "edad": 1,
+        "numero_historia_clinica": 112,
+        "relacion_peso_estatura": 1,
+        "anios_de_fumador": null,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "Gladis Torres",
+        "edad": 81,
+        "numero_historia_clinica": 113,
+        "relacion_peso_estatura": null,
+        "anios_de_fumador": null,
+        "tiene_dieta": true
+    },
+    {
+        "nombre": "Fererico Narvaez",
+        "edad": 15,
+        "numero_historia_clinica": 114,
+        "relacion_peso_estatura": 4,
+        "anios_de_fumador": null,
+        "tiene_dieta": null
+    },
+    {
+        "nombre": "Dora Torres",
+        "edad": 60,
+        "numero_historia_clinica": 115,
+        "relacion_peso_estatura": null,
+        "anios_de_fumador": null,
+        "tiene_dieta": true
+    }
+]

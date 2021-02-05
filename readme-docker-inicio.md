@@ -40,5 +40,8 @@ Configuración inicial de Docker para generar un nuevo ambiente de trabajo para 
     '/sanctum/csrf-cookie'
 
 # Migrations, Models, Controllers
-001. docker-compose exec app php artisan make:migration create_hospitales_table 
-001. docker-compose exec app php artisan migrate
+001. docker-compose exec app php artisan make:model Hospital -a 
+002. docker-compose exec app php artisan make:model Consulta -a
+003. docker-compose exec app php artisan make:model Paciente -a 
+004. docker-compose exec app php artisan migrate
+004. docker-compose exec app php db:seed
