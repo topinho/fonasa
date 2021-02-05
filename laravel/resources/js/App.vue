@@ -163,7 +163,7 @@
       getDataInicio() {
         this.loading = true
         this.axios
-          .get(`http://159.203.126.60:30019/api/inicio`)
+          .get(`http://localhost:30019/api/inicio`)
             .then((response) => {
               this.loading = false
               this.dataConsultas = response.data.consultas;
@@ -176,7 +176,7 @@
         this.loading = true
         // console.log('activeName', this.activeName)
         this.axios
-          .get(`http://159.203.126.60:30019/api/pacientes`, { params: { tabs: this.activeName }} )
+          .get(`http://localhost:30019/api/pacientes`, { params: { tabs: this.activeName }} )
             .then((response) => {
               this.loading = false
               this.dataPacientesPendientes = response.data;
@@ -188,7 +188,7 @@
         this.loading = true
         // console.log('activeName', this.activeName)
         this.axios
-          .post(`http://159.203.126.60:30019/api/atenciones`)
+          .post(`http://localhost:30019/api/atenciones`)
             .then((response) => {
               this.loading = false
               this.dataConsultas = response.data.consultas;
@@ -201,7 +201,7 @@
         this.loading = true
         // console.log('activeName', this.activeName)
         this.axios
-          .post(`http://159.203.126.60:30019/api/consultas/liberar`)
+          .post(`http://localhost:30019/api/consultas/liberar`)
             .then((response) => {
               this.loading = false
               this.dataConsultas = response.data.consultas;
@@ -213,7 +213,7 @@
         this.mostrarConsultaMasAtenciones = true
         this.loading = true
         this.axios
-          .get(`http://159.203.126.60:30019/api/consultas/mas-atenciones`)
+          .get(`http://localhost:30019/api/consultas/mas-atenciones`)
             .then((response) => {
               this.loading = false
               this.dataConsulta = response.data.consulta;
@@ -225,7 +225,7 @@
         this.loading = true
         // console.log('activeName', this.activeName)
         this.axios
-          .post(`http://159.203.126.60:30019/api/atenciones/optimizar`)
+          .post(`http://localhost:30019/api/atenciones/optimizar`)
             .then((response) => {
               this.loading = false
               this.dataConsultas = response.data.consultas;

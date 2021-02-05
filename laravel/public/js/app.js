@@ -3710,7 +3710,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       this.loading = true;
-      this.axios.get("http://159.203.126.60:30019/api/inicio").then(function (response) {
+      this.axios.get("http://localhost:30019/api/inicio").then(function (response) {
         _this.loading = false;
         _this.dataConsultas = response.data.consultas;
         _this.dataPacientesPendientes = response.data.pacientes_pendientes;
@@ -3722,7 +3722,7 @@ __webpack_require__.r(__webpack_exports__);
 
       this.loading = true; // console.log('activeName', this.activeName)
 
-      this.axios.get("http://159.203.126.60:30019/api/pacientes", {
+      this.axios.get("http://localhost:30019/api/pacientes", {
         params: {
           tabs: this.activeName
         }
@@ -3737,7 +3737,7 @@ __webpack_require__.r(__webpack_exports__);
       alert("Atendiendo paciente por prioridad");
       this.loading = true; // console.log('activeName', this.activeName)
 
-      this.axios.post("http://159.203.126.60:30019/api/atenciones").then(function (response) {
+      this.axios.post("http://localhost:30019/api/atenciones").then(function (response) {
         _this3.loading = false;
         _this3.dataConsultas = response.data.consultas;
         _this3.dataPacientesPendientes = response.data.pacientes_pendientes;
@@ -3750,7 +3750,7 @@ __webpack_require__.r(__webpack_exports__);
       alert("Liberar Consultas... Se buscaran pacientes en lista de espera segun consulta desocupada");
       this.loading = true; // console.log('activeName', this.activeName)
 
-      this.axios.post("http://159.203.126.60:30019/api/consultas/liberar").then(function (response) {
+      this.axios.post("http://localhost:30019/api/consultas/liberar").then(function (response) {
         _this4.loading = false;
         _this4.dataConsultas = response.data.consultas;
         _this4.dataPacientesPendientes = response.data.pacientes_pendientes;
@@ -3762,7 +3762,7 @@ __webpack_require__.r(__webpack_exports__);
 
       this.mostrarConsultaMasAtenciones = true;
       this.loading = true;
-      this.axios.get("http://159.203.126.60:30019/api/consultas/mas-atenciones").then(function (response) {
+      this.axios.get("http://localhost:30019/api/consultas/mas-atenciones").then(function (response) {
         _this5.loading = false;
         _this5.dataConsulta = response.data.consulta;
         _this5.dataConsultaAtenciones = response.data.atenciones;
@@ -3774,7 +3774,7 @@ __webpack_require__.r(__webpack_exports__);
       alert("Optimizar Atencion. Segun las consultas disponibles, busca los pacientes de mayor riesgo y prioridad para darlos por atendidos. Luego libera las consultas.");
       this.loading = true; // console.log('activeName', this.activeName)
 
-      this.axios.post("http://159.203.126.60:30019/api/atenciones/optimizar").then(function (response) {
+      this.axios.post("http://localhost:30019/api/atenciones/optimizar").then(function (response) {
         _this6.loading = false;
         _this6.dataConsultas = response.data.consultas;
         _this6.dataPacientesPendientes = response.data.pacientes_pendientes;
